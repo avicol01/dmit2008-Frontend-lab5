@@ -13,7 +13,7 @@ import { DeleteTaskForm } from '../forms/DeleteTaskForm'
 function DeleteTask({children, className, uid, payload}) {
 	return (
 		<Dialog className="">
-			<DialogTrigger className="bg-black text-white w-full py-2.5 rounded-lg mt-3 font-semibold">
+			<DialogTrigger className="bg-black text-white w-full p-2.5 rounded-lg mt-3 font-semibold">
 				Delete
 			</DialogTrigger>
 			<DialogContent className="">
